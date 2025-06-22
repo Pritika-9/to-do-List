@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><b>YOUR TO-DO LIST</b></h1>
+    <div id="taskInput-area">
+        <label for="taskInput">Task:</label>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button id="addTask"> Press⏎/Click</button>
+    </div>
+    <span id="filter">
+    <label for="filterMenu">Filter:</label>
+     <select id="filterMenu">
+     <option value="default">Default</option>
+     <option value="completed">Completed</option>
+     <option value="incomplete">Incomplete</option>
+     <option value="newest">Sort by Newest</option>
+     <option value="oldest">Sort by Newest</option>
+    </select>
+    </span>
+    <ul id="taskList">
+    </ul>
+    <script src="script.js" defer></script>
+</body>
+</html>
