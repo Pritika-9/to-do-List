@@ -9,4 +9,6 @@
 -depicts using mobile responsive layouts and how it even works properly in small screens (360 * 740 )
 ### 4. screenshot4.png
 -depicts using filter dropdown to show incomplete tasks which are not checked.
+### local storage
+all these will even stay after reload too unless you delete them.
 
